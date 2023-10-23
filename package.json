@@ -1,6 +1,6 @@
 {
   "name": "@pct-cclausen/file-opener",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Capacitor File Opener. The plugin is able to open a file given the mimeType and the file uri.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -37,10 +37,8 @@
     "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
     "swiftlint": "node-swiftlint",
     "docgen": "docgen --api FileOpenerPlugin --output-readme README.md --output-json dist/docs.json",
-    "build": "npm run clean && npm run docgen && tsc && rollup --bundleConfigAsCjs -c rollup.config.js",
-    "clean": "rimraf ./dist",
-    "watch": "tsc --watch",
-    "prepublishOnly": "npm run build"
+    "build": "npm run docgen && tsc && rollup --bundleConfigAsCjs -c rollup.config.js",
+    "watch": "tsc --watch"
   },
   "devDependencies": {
     "@capacitor/android": "^5.0.0",

@@ -1,6 +1,6 @@
 {
   "name": "@pct-cclausen/file-opener",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Capacitor File Opener. The plugin is able to open a file given the mimeType and the file uri.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorCommunityFileOpener.podspec"
+    "PctCclausenFileOpener.podspec"
   ],
   "author": "Alex Ryltsov <ryltsov.alex@gmail.com>",
   "license": "MIT",
